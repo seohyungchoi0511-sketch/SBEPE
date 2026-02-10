@@ -8,19 +8,19 @@ interface ProjectsProps {
 const PROJECT_REPORTS = [
   {
     title: "용산 센트럴파크",
-    image: "/images/picts/centralparkys.png",
+    image: "public/images/picts/centralparkys.jpg",
   },
   {
-    title: "부산 라발스호텔",
-    image: "https://www.lavalsehotel.jp/storage/app/public/seo/db/3f/20190730130149ebccb22b96fe57ed8f6f4e38531fff3d323d097a.jpg",
+    title: "롯데캐슬 광명",
+    image: "public/images/picts/lottecastlekm.jpg",
   },
   {
     title: "유엔빌리지 고급빌라",
-    image: "/images/picts/sangwaldae.png",
+    image: "public/images/picts/unvillagesangwal.jpg",
   },
   {
     title: "영통 2차 e-편한세상",
-    image: "/images/picts/eapt.png",
+    image: "public/images/picts/eapt.jpg",
   }
 ];
 
