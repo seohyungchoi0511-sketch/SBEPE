@@ -8,7 +8,7 @@ interface ProjectsProps {
 const PROJECT_REPORTS = [
   {
     title: "용산 센트럴파크",
-    image: "https://img.khan.co.kr/news/2017/06/19/201706191516318153312_0.webp",
+    image: "/images/picts/centralparkys.png",
   },
   {
     title: "부산 라발스호텔",
@@ -16,11 +16,11 @@ const PROJECT_REPORTS = [
   },
   {
     title: "유엔빌리지 고급빌라",
-    image: "https://img.hankyung.com/photo/201312/AA.8120899.1.jpg",
+    image: "/images/picts/sangwaldae.png",
   },
   {
     title: "영통 2차 e-편한세상",
-    image: "https://image.kmib.co.kr/online_image/2014/0923/201409231100_61140008698753_1.jpg",
+    image: "/images/picts/eapt.png",
   }
 ];
 

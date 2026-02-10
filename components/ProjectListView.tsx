@@ -108,7 +108,7 @@ const ProjectListView: React.FC = () => {
 
             <div className="relative w-full max-w-md transition-all duration-1000">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Unification_flag_of_Korea.svg"
+                src="/images/picts/map.PNG"
                 className="w-full h-auto opacity-90 contrast-[1.05] brightness-[1.0] mix-blend-multiply"
                 alt="전국 수행 실적 지도"
                 onError={(e) => {

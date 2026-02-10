@@ -144,17 +144,6 @@ const CEOPage: React.FC = () => {
 
                 <div className="space-y-6 pt-8">
                   <p className="font-bold text-slate-900">감사합니다.</p>
-                  <div className="flex flex-col items-start gap-1 pt-2 opacity-90">
-                    <span className="text-[12px] font-bold text-slate-400 ml-1">(주)서울건축환경기술사사무소</span>
-                    <div className="flex items-center gap-4">
-                      <span className="text-base md:text-lg font-bold text-slate-700 tracking-tight italic">대표이사/기술사</span>
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Signature_of_John_Hancock.svg/1200px-Signature_of_John_Hancock.svg.png"
-                        alt="Signature"
-                        className="h-10 grayscale brightness-0 opacity-70"
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
