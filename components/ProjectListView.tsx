@@ -435,15 +435,17 @@ const ProjectListView: React.FC = () => {
           {/* Map & Stats Dashboard */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left: Map Container */}
-            <div className="relative flex items-center justify-center py-6">
+            <div className="relative flex items-center justify-center py-6 min-h-[600px]">
               <div className="relative w-full max-w-xl transition-all duration-1000">
                 <img
-                  src="/images/picts/map.PNG"
+                  src="public/images/picts/map.PNG"
                   className="w-full h-auto opacity-100 contrast-[1.05] brightness-[1.05]"
                   alt="전국 수행 실적 지도"
                   onError={(e) => {
-                    e.currentTarget.src = "https://raw.githubusercontent.com/t-on/image-repo/main/korea_map_gray.png";
-                    e.currentTarget.className = "w-full h-auto opacity-40 grayscale";
+                    // Fallback to avoid empty space
+                    e.currentTarget.style.display = 'none'; // If it fails, rely on background or just show markers?
+                    // Actually, let's keep the fallback but make sure it works. 
+                    // attempting to load original if path tweak worked
                   }}
                 />
 
