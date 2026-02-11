@@ -71,7 +71,7 @@ const CompanyPage: React.FC<CompanyPageProps> = ({ onNavigate }) => {
             </div>
             <div className="md:col-span-8 p-10 bg-slate-50 border border-slate-100 rounded-none">
               <p className="text-lg text-slate-700 leading-relaxed break-keep">
-                <span className="font-bold text-slate-900">(주)서울건축환경기술사사무소</span>는 2002년 6월 기술사법 제6조 1항에 의하여 건설분야 기술사사무소로 설립되었습니다. 서울고등법원, 서울중앙지방법원, 서울남부지방법원의 건설 감정업무를 수행하며 대한민국 건설 공학의 신뢰를 쌓아왔으며, 2008년 8월 현재의 전문성을 더욱 강화하기 위해 성수송천빌딩으로 확장 이전하며 새로운 도약을 시작했습니다.
+                <span className="font-bold text-slate-900">(주)서울건축환경기술사사무소</span>는 2002년 6월 기술사법 제6조 1항에 의하여 건설분야 기술사사무소로 설립되었습니다. 서울고등법원, 서울중앙지방법원, 서울남부지방법원의 건설 감정업무를 수행하며 대한민국 건설 공학의 신뢰를 쌓아왔으며, 2023년 전문성을 더욱 강화하기 위해 별내역 파라곤스퀘어로 이전하며 새로운 도약을 시작했습니다.
               </p>
             </div>
           </div>
