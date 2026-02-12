@@ -5,7 +5,7 @@ const METRICS = [
   { label: "창립 연도", value: "2002", sub: "Since" },
   { label: "감정 처리", value: "300+", sub: "Cases" },
   { label: "핵심 분야", value: "9", sub: "Areas" },
-  { label: "지원 단계", value: "3", sub: "Steps" },
+  { label: "지원 단계", value: "4", sub: "Steps" },
 ];
 
 const AboutSection: React.FC = () => {

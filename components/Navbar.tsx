@@ -45,25 +45,25 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
           <nav className="hidden md:flex items-center gap-1">
             <button
               onClick={() => handleNav('company')}
-              className={`relative px-4 py-2 rounded-xl text-lg font-bold transition-all ${currentView === 'company' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
+              className={`relative px-4 py-2 rounded-xl text-base font-bold transition-all ${currentView === 'company' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
             >
               회사소개
             </button>
             <button
               onClick={() => handleNav('ceo')}
-              className={`relative px-4 py-2 rounded-xl text-lg font-bold transition-all ${currentView === 'ceo' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
+              className={`relative px-4 py-2 rounded-xl text-base font-bold transition-all ${currentView === 'ceo' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
             >
               CEO 인사말
             </button>
             <button
               onClick={() => handleNav('projects')}
-              className={`relative px-4 py-2 rounded-xl text-lg font-bold transition-all ${currentView === 'projects' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
+              className={`relative px-4 py-2 rounded-xl text-base font-bold transition-all ${currentView === 'projects' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
             >
               수행실적
             </button>
             <button
               onClick={() => handleNav('news')}
-              className={`relative px-4 py-2 rounded-xl text-lg font-bold transition-all ${currentView === 'news' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
+              className={`relative px-4 py-2 rounded-xl text-base font-bold transition-all ${currentView === 'news' ? 'text-blue-600 bg-blue-50' : 'text-slate-900 hover:bg-slate-50'}`}
             >
               정보·뉴스
             </button>

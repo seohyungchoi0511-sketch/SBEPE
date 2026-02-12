@@ -55,7 +55,7 @@ const Newsroom: React.FC<NewsroomProps> = ({ onNavigate }) => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://www.paragonstar.kr/theme/business/img/main/banner1.png')`
+            backgroundImage: `url('/images/picts/paragon.png')`
           }}
         />
         <div className="absolute inset-0 bg-white/20" />

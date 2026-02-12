@@ -19,7 +19,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <img
                 src="/images/logo/logo.png"
                 alt="(주)서울건축환경기술사사무소"
-                className="h-24 w-auto object-contain"
+                className="h-16 w-auto object-contain"
               />
             </button>
           </div>
